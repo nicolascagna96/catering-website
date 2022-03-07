@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  color: #3a3a3a;
+  background-color: lightblue;
+  min-height: 100vh;
+}
+
+
+/* headings and logo */
+
+h1 {
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #252525
+}
+
+#logo {
+  float: left;
+  font-size: 280%;
+  margin-left: 30px;
+}
+
+/* navigation links */
+
+#menu {
+  font-size: 100%;
+  letter-spacing: 4px;
+}
+
+#menu, #logo {
+  line-height: 75px;
+}
+
+#menu li {
+  float: right;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu a:hover {
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+  border-bottom: 1px solid #3a3a3a;
+}
+
+
+/* hero image */
+#hero-outer { 
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+
+  position: relative;
+}
+
+
+#hero-image {
+  height: 600px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0,0.5),
+  rgba(0,0,0,0.5)), url("/assets/images/pexels-photo-1640773.jpeg");
+}
+
+#hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fafafa;
+  transform: translate(-50%,-50%);
+  font-size: 55px;
+  height: auto;
+}
+
+#hero-text h2{
+  text-transform: capitalize;
+}
+
+#hero-text p {
+  font-size: 25px;
+}
+button {
+        
+  background-color: lightblue;
+  color: #fafafa;
+  text-decoration: none;
+  border: 4px solid transparent ;
+  font-weight: bold;
+  padding: 12px 28px;
+  border-radius: 30px;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid lightblue;
+  cursor: pointer;
+}
+
+/* services */
+
+.service-section{
+  background-color:azure ;
+  height: auto;
+  width: 100%;
+  padding-bottom: 100px;
+
+}
+
+.service-section h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.service-section h1::after{
+  content: "";
+  width: 220px;
+  height: 5px;
+  display: flex;
+  margin:auto;
+  background-color: #d8db1d;
+}
+
+.service-section .cards-section{
+  text-align: center;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 20px;
+  
+}
+
+.cards-section>div{
+  padding: 30px 10px;
+  background-color: 	lightblue;
+ cursor: pointer;
+}
+
+.cards-section>div:hover{
+  background-color: #d8db1d;
+  transition: 0.5s ease;
+}
+
+.cards-section i{
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  border-radius: 50px;
+  border-radius: 50%;
+  background-color: rgb(0, 255, 115);
+  margin-bottom: 25px;
+}
+
+.cards-section i:hover{
+  background-color: white;
+  transition: 0.5s ease;
+}
+
+.cards-section h3{
+  font-family: Lato, sans-serif;
+  color: #3a3a3a;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.cards-section p{
+  color: #3a3a3a;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.cards-section a{
+  margin-top: 10px;
+  display: inline-block;
+  color: #3a3a3a;
+  background-color: rgb(0, 255, 115);
+  padding: 10px 20px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.cards-section a:hover{
+  background-color: white;
+  transition: 0.5s ease;
+}
+
+/* footer */
+
+footer {
+  height: 150px;
+}
+
+.social {
+  text-align: center;
+}
+
+.social > li {
+  display: inline;
+}
+
+.social i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: black;
+}
+
+
+.copyright {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size:  15px;
+  text-align: center;
+  margin-bottom: -5px;
+}
+#copyright-address {
+  color: grey;
+}
+
+/* contact form */
+.contact {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(rgba(0, 0, 0,0.5),
+  rgba(0,0,0,0.5)), url("/assets/images/pexels-photo-1640773.jpeg");
+  background-size: cover;
+}
+
+.contact .contact-title {
+max-width: 800px;
+text-align: center;
+}
+
+.contact .contact-title h2 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fafafa;
+  
+}
+
+.contact .contact-title p {
+  font-weight: 400;
+  color: #fafafa;
+  
+}
+
+.container{
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.container .contact-info{
+display: flex;
+width: 50%;
+flex-direction: column;
+}
+
+.container .contact-info .box{
+  position: relative;
+  display: flex;
+ flex-direction: column;
+ color: #fafafa;
+ padding: 30px 0;
+}
+
+.container .contact-info .box i{
+  min-width: 60px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .contact-info .box  .text{
+  font-size: 18px;
+  margin-left: 20px;
+  color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+}
+
+.container .contact-info .box .text h3{
+  font-weight: bold;
+  color: bisque;
+}
+
+.contact-form{
+  width: 40%;
+  padding: 40px;
+  background: #fafafa;
+  color: #3a3a3a;
+  border: 1px solid #3a3a3a;
+}
+
+.contact-form h2{
+  font-size: 30p;
+  color:#3a3a3a;
+  font-weight: 400;
+}
+
+.contact-form .input-box{
+  position: relative;
+  width: 100%;
+}
+/* gallery */
+
+.gallery {
+  clear: both;
+  column-count: 3;    
+  line-height: 0;
+  column-gap: 0;    
+}
+
+.gallery > img {
+width: 100%;
+border: solid 2px #fafafa;
+max-width: 100%;
+}
+
+
+/* For medium screen sizes from 950px wide and down */
+  
+@media screen and (max-width: 950px) {
+  
+  .nav-menu {
+     clear: left;
+     float: left;
+     margin-left: 30px;
+     margin-bottom: 20px;
+     line-height: 25px;
+  }
+ 
+  #cover-text {
+      left: 0;
+  }
+
+ .gallery {
+     column-count: 3;
+ }
+}
+
+@media screen and (max-width: 800px) {
+  .gallery {
+      column-count: 2;
+  }
+}
