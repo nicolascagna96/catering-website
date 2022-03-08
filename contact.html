@@ -16,22 +16,20 @@
 <header>
 
   <!--navigation bar-->
-  <nav>
-    <ul id="menu">
-      <a href="index.html">
-        <h1 id="logo">Nicolas Cagna</h1>
-    </a>
-        <li>
-            <a class="active" href="contact.html">Contact</a>
-        </li>
-        <li>
-            <a  href="gallery.html">Gallery</a>
-        </li>
-        <li>
-            <a href="index.html">Home</a>
-        </li>
-    </ul>
-</nav>
+  <div class="top">
+    <ul class="nav-menu">
+
+ <li><a  href="index.html">Home</a></li>
+ <li><a  href="gallery.html">Gallery</a></li>
+ <li><a  class="active" href="contact.html">Contact</a></li>
+ 
+ </ul>
+
+ 
+ <a href="index.html">
+    <h1 id="logo">Nicolas' Catering</h1>
+  </a>
+</div>
 </header>
 
 
@@ -46,8 +44,8 @@
   <div class="contact-form">
     <h2>Contact Us</h2>
     <form class="contact" action="" method="post">
-      <input type="text" name="name" class="text-box" placeholder="Your Name...">
-      <input type="text" name="email" class="text-box" placeholder="Your Email...">
+      <input type="text" name="name" class="text-box" placeholder="Your Name..." required>
+      <input type="text" name="email" class="text-box" placeholder="Your Email..." required>
 <textarea name="message" rows="5" placeholder="Your Message..." required></textarea>
 <input type="submit" name="submit" class="send" value="Send">
 

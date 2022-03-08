@@ -17,46 +17,54 @@ body {
 
 /* headings and logo */
 
+
 h1 {
-  font-family: Oswald, sans-serif;
+  font-family: Lato, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
-  color: #252525
+  color: #fff;
+
 }
 
 #logo {
   float: left;
-  font-size: 280%;
+  font-size: 250%;
   margin-left: 30px;
+  color: #000;
+  line-height: 2;
 }
 
-/* navigation links */
+/* navbar */
 
-#menu {
-  font-size: 100%;
+.nav-menu {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+  
+}
+
+.nav-menu li {
+  display: inline-block;
   letter-spacing: 4px;
 }
 
-#menu, #logo {
-  line-height: 75px;
-}
-
-#menu li {
-  float: right;
-  list-style-type: none;
-  margin-right: 30px;
-}
-
-#menu a {
+.nav-menu li a {
+  color: #000;
   text-decoration: none;
-  color: inherit;
+  padding: 5px;
+  font-family: rovoto serif, sans-serif;
+  font-size: 20px;
 }
 
-#menu a:hover {
+/* change color of links on hover */
+
+li a:hover {
   border-bottom: 1px solid #3a3a3a;
 }
 
-.active {
+/* Add a color to the active link */
+
+li a.active {
   border-bottom: 1px solid #3a3a3a;
 }
 
