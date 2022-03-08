@@ -127,7 +127,7 @@ button:hover {
 /* services */
 
 .service-section{
-  background-color:azure ;
+  background-color:rgb(143, 148, 132) ;
   height: auto;
   width: 100%;
   padding-bottom: 100px;
@@ -137,6 +137,7 @@ button:hover {
 .service-section h1{
   text-align: center;
   text-transform: uppercase;
+  color: #000;
 }
 
 .service-section h1::after{
@@ -397,7 +398,7 @@ border: solid 2px #fafafa;
   
 @media screen and (max-width: 950px) {
   
-  #menu {
+  .nav-menu {
      clear: left;
      float: left;
      margin-left: 50px;
