@@ -58,13 +58,13 @@ h1 {
 
 /* change color of links on hover */
 
-li a:hover {
+.nav-menu li a:hover {
   border-bottom: 1px solid #3a3a3a;
 }
 
 /* Add a color to the active link */
 
-li a.active {
+.nav-menu li a.active {
   border-bottom: 1px solid #3a3a3a;
 }
 
@@ -107,16 +107,7 @@ li a.active {
 #hero-text p {
   font-size: 20px;
 }
-button {
-        
-  background-color: lightblue;
-  color: #fafafa;
-  text-decoration: none;
-  border: 4px solid transparent ;
-  font-weight: bold;
-  padding: 12px 28px;
-  border-radius: 30px;
-}
+
 
 button:hover {
   background-color: transparent;
@@ -127,7 +118,7 @@ button:hover {
 /* services */
 
 .service-section{
-  background-color:rgb(143, 148, 132) ;
+  background-color:#fafafa ;
   height: auto;
   width: 100%;
   padding-bottom: 100px;
@@ -255,7 +246,7 @@ align-items: center;
   justify-content: center;
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0,0.5),
-  rgba(0,0,0,0.5)), url("/assets/images/pexels-ella-olsson-1640773.jpg");
+  rgba(0,0,0,0.5)), url("../images/pexels-ella-olsson-1640773.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -355,6 +346,7 @@ align-items: center;
 
   .contact-info, .contact-form{
     margin: 30px 50px;
+    align-items: center;
   }
 
   .contact-form h2{
@@ -424,4 +416,17 @@ border: solid 2px #fafafa;
   .gallery {
       column-count: 2;
   }
+
+.service-section .cards-section{
+  grid-template-columns: 1fr;
 }
+
+@media screen and (max-width: 300px){
+    #hero-text h2 {
+    font-size: 4vh;
+  }
+
+  #hero-text p { 
+    font-size: 2vh;
+  } 
+} 
