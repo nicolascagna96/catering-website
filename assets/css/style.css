@@ -83,7 +83,7 @@ h1 {
   height: 600px;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0,0.5),
-  rgba(0,0,0,0.5)), url("/assets/images/pexels-ella-olsson-1640773.jpg");
+  rgba(0,0,0,0.5)), url("../images/pexels-ella-olsson-1640773.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -285,7 +285,7 @@ align-items: center;
 }
 
 .contact-form .text-box{
-  background: #000;
+  background: #3a3a3a;
   color: #fff;
   border: none;
   width: calc(50% - 10px);
@@ -303,7 +303,7 @@ align-items: center;
 }
 
 .contact-form textarea{
-  background: #000;
+  background: #3a3a3a;
   color: #fff;
   border: none;
   width: 100%;

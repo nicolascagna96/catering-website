@@ -1,6 +1,6 @@
-# Private Chef
+# Nicolas' Catering
 
-This is my website, I'am offering a private Chef service for everyonw The 
+This is my website, I'am offering a catering service for everyone. The 
 website is designed to be responsive for a large range of devices. The website have the purpose to reach people who love the idea to have great food in their home.
 # Features
 - Responsive on all device sizes.
@@ -62,6 +62,6 @@ website is designed to be responsive for a large range of devices. The website h
     -   From the source section drop-down menu, select the Master Branch
     -   Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://nicolascagna96.github.io/personal-chef/index.html
+The live link can be found here - https://nicolascagna96.github.io/catering-first-project/
 
 ## Credit
