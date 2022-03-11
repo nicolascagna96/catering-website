@@ -28,8 +28,8 @@ h1 {
 
 #logo {
   float: left;
-  font-size: 250%;
-  margin-left: 30px;
+  font-size: 2.25rem;
+  margin-left: 1.875em;
   color: #000;
   line-height: 2;
 }
@@ -37,9 +37,10 @@ h1 {
 /* navbar */
 
 .nav-menu {
+  font-family: Lato, sans-serif;
   float: right;
   list-style: none;
-  margin-top: 30px;
+  margin-top: 1.25em;
   
 }
 
@@ -51,9 +52,8 @@ h1 {
 .nav-menu li a {
   color: #000;
   text-decoration: none;
-  padding: 5px;
-  font-family: rovoto serif, sans-serif;
-  font-size: 20px;
+  padding: 0.32rem;
+  font-size: 1.25rem;
 }
 
 /* change color of links on hover */
@@ -80,7 +80,7 @@ h1 {
 
 
 #hero-image {
-  height: 600px;
+ height: 600px;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0,0.5),
   rgba(0,0,0,0.5)), url("../images/pexels-ella-olsson-1640773.jpg");
@@ -90,23 +90,21 @@ h1 {
 }
 
 #hero-text {
+  font-size: 130%;
   text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   color: #fafafa;
   transform: translate(-50%,-50%);
-  font-size: 55px;
-  height: auto;
+ 
 }
 
 #hero-text h2{
   text-transform: capitalize;
 }
 
-#hero-text p {
-  font-size: 20px;
-}
+
 
 
 button:hover {
@@ -121,7 +119,7 @@ button:hover {
   background-color:#fafafa ;
   height: auto;
   width: 100%;
-  padding-bottom: 100px;
+  padding-bottom: 1.875em;
 
 }
 
@@ -142,7 +140,7 @@ button:hover {
 
 .service-section .cards-section{
   text-align: center;
-  margin-top: 60px;
+  margin-top: 3.75em;
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   grid-gap: 20px;
@@ -150,7 +148,7 @@ button:hover {
 }
 
 .cards-section>div{
-  padding: 30px 10px;
+  padding: 1.875rem 0.625rem;
   background-color: 	lightblue;
  cursor: pointer;
 }
@@ -167,7 +165,7 @@ button:hover {
   border-radius: 50px;
   border-radius: 50%;
   background-color: rgb(0, 255, 115);
-  margin-bottom: 25px;
+  margin-bottom: 1.5625rem;
 }
 
 .cards-section i:hover{
@@ -178,14 +176,14 @@ button:hover {
 .cards-section h3{
   font-family: Lato, sans-serif;
   color: #3a3a3a;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   text-transform: capitalize;
   letter-spacing: 2px;
 }
 
 .cards-section p{
   color: #3a3a3a;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   letter-spacing: 1px;
 }
 
@@ -194,8 +192,8 @@ button:hover {
   display: inline-block;
   color: #3a3a3a;
   background-color: rgb(0, 255, 115);
-  padding: 10px 20px;
-  font-size: 15px;
+  padding: 0.625rem 1.25rem;
+  font-size:0.9375rem;
   text-decoration: none;
 }
 
@@ -230,12 +228,12 @@ footer {
   color: black;
   text-transform: uppercase;
   font-weight: bold;
-  font-size:  15px;
+  font-size:  0.9375rem;
   text-align: center;
   margin-bottom: -5px;
 }
 #copyright-address {
-  color: grey;
+  color: black;
 }
 
 /* contact form */
@@ -255,21 +253,22 @@ align-items: center;
   color: #fafafa;
   max-width: 500px;
   line-height: 65px;
-  padding-left: 200px;
-  font-size: 18px;
-  margin-right: 100px;
+  padding-left: 3.13rem;
+  font-size: 1.13rem;
+  margin-right: 30px;
+  align-items: center;
 }
 
 .contact-info i{
-  margin-right: 20px;
-  font-size: 25px;
+  margin-right: 1.25rem;
+  font-size: 1.6rem;
 
 }
 
 
 .contact-form{
   max-width: 700px;
-  margin-right: 50px; 
+  margin-right: 3.13rem; 
 }
 
 .contact-info .contact-form{
@@ -279,9 +278,10 @@ align-items: center;
 .contact-form h2{
   color: #fafafa;
   text-align: center;
-  font-size: 35px;
+  font-size: 2.2rem;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
+
 }
 
 .contact-form .text-box{
@@ -290,16 +290,16 @@ align-items: center;
   border: none;
   width: calc(50% - 10px);
   height: 50px;
-  padding: 12px;
-  font-size: 15px;
+  padding: 0.8rem;
+  font-size: 1rem;
   border-radius: 5px;
   box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   opacity: 0.9;
 }
 
 .contact-form .text-box:first-child{
-  margin-right: 15px;
+  margin-right: 1rem;
 }
 
 .contact-form textarea{
@@ -310,11 +310,11 @@ align-items: center;
   min-height: 200px;
   max-height: 400px;
   resize: vertical;
-  padding: 12px;
-  font-size: 15px;
+  padding: 0.8rem;
+  font-size: 1rem;
   border-radius: 5px;
   box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   opacity: 0.9;
 }
 
@@ -325,7 +325,7 @@ align-items: center;
   border: none;
   width: 120px;
   height: 40px;
-  font-size: 15px;
+  font-size: 1rem30;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -345,12 +345,12 @@ align-items: center;
   }
 
   .contact-info, .contact-form{
-    margin: 30px 50px;
+    margin: 2em 3.12em;
     align-items: center;
   }
 
   .contact-form h2{
-    font-size: 30px;
+    font-size: 2em;
   }
 
   .contact-form .text-box {
@@ -375,37 +375,18 @@ border: solid 2px #fafafa;
 }
 
 
-@media screen and (max-width: 1200px) {
-  #hero-text h2{
-    font-size: 5vh;
-
-  }
-
-  #hero-text{
-    font-size: 3vh;
-  }
-}
-
 /* For medium screen sizes from 950px wide and down */
   
 @media screen and (max-width: 950px) {
   
   .nav-menu {
      clear: left;
-     float: left;
-     margin-left: 50px;
-     margin-bottom: 20px;
+     float: right;
+     margin-left: 2rem;
+     margin-bottom: 1.25rem;
      line-height: 25px;
   }
  
-
-  #hero-text h2 {
-    font-size: 4vh;
-  }
-
-  #hero-text p{
-    font-size: 1.5vh;
-  }
 
  .gallery {
      column-count: 3;
@@ -420,13 +401,3 @@ border: solid 2px #fafafa;
 .service-section .cards-section{
   grid-template-columns: 1fr;
 }
-
-@media screen and (max-width: 300px){
-    #hero-text h2 {
-    font-size: 4vh;
-  }
-
-  #hero-text p { 
-    font-size: 2vh;
-  } 
-} 
