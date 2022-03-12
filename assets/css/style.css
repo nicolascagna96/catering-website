@@ -101,7 +101,8 @@ h1 {
 }
 
 #hero-text h2{
-  text-transform: capitalize;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 
@@ -391,6 +392,10 @@ border: solid 2px #fafafa;
  .gallery {
      column-count: 3;
  }
+.hero-text{
+  left: 0;
+}
+
 }
 
 @media screen and (max-width: 800px) {
