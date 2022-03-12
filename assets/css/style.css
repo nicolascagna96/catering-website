@@ -56,18 +56,14 @@ h1 {
   font-size: 1.25rem;
 }
 
-/* change color of links on hover */
 
 .nav-menu li a:hover {
   border-bottom: 1px solid #3a3a3a;
 }
 
-/* Add a color to the active link */
-
 .nav-menu li a.active {
   border-bottom: 1px solid #3a3a3a;
 }
-
 
 /* hero image */
 #hero-outer { 
