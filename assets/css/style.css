@@ -272,9 +272,6 @@ align-items: center;
   margin-right: 3.13rem; 
 }
 
-.contact-info .contact-form{
-  flex: i;
-}
 
 .contact-form h2{
   color: #fafafa;
@@ -326,7 +323,7 @@ align-items: center;
   border: none;
   width: 120px;
   height: 40px;
-  font-size: 1rem30;
+  font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -405,4 +402,5 @@ border: solid 2px #fafafa;
 
 .service-section .cards-section{
   grid-template-columns: 1fr;
+}
 }
