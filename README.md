@@ -86,6 +86,8 @@ This is the Nicolas' catering website. The website is designed to be responsive 
 - Accessibility
   - I confirmed that the colors and fonts chosen are easy to read and understand by running it through the lighthouse in devtools.
 
+  ![alt text](./assets/images/accessibility.png)
+
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
