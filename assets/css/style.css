@@ -31,22 +31,26 @@ h1 {
   font-size: 2.25rem;
   margin-left: 1.875em;
   color: #000;
-  line-height: 2;
+  
 }
 
 /* navbar */
+
+.nav-menu, #logo {
+  line-height: 75px;
+}
 
 .nav-menu {
   font-family: Lato, sans-serif;
   float: right;
   list-style: none;
-  margin-top: 1.25em;
   
 }
 
 .nav-menu li {
   display: inline-block;
   letter-spacing: 4px;
+  margin-right: 1.875em;
 }
 
 .nav-menu li a {
@@ -375,10 +379,9 @@ border: solid 2px #fafafa;
   
   .nav-menu {
      clear: left;
-     float: right;
+     float: left;
      margin-left: 2rem;
      margin-bottom: 1.25rem;
-     line-height: 25px;
   }
  
 

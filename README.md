@@ -1,6 +1,6 @@
 # Nicolas' Catering
 
-This is the Nicolas' catering website. The website is designed to be responsive for a large range of devices. The website have the purpose to reach people who love the idea to have great food in their home.
+This is the Nicolas' Catering website. The website is designed to be responsive for a large range of devices. The website have the purpose to reach people who love the idea to have great food in their home.
 
 ![alt text](./assets/images/Responsive.png)
 
@@ -11,22 +11,25 @@ This is the Nicolas' catering website. The website is designed to be responsive 
 
 ## Existing Features
 - Navigation Bar:
-   - The navigation bar is present in all the five pages. It includes the links to the Home page, Gallery and Contact pages.
-   - The navigation bar allows users to navigate from page to page across all the type of devices.
+   - The navigation bar is present in all the three pages. It includes the links to the Home page, Gallery and Contact pages. And it shows the name in the left corner: Nicolas's Catering, that links to the Home page.
+   - The navigation bar allows users to easily navigate from page to page across all the type of devices.
+   - The navigation bar is easy to read and accessible for all the users.
+   
 
   ![alt text](./assets/images/Navabar.png)
 
 
-- The landing page.
-  - The landing page allows the users what is Nicolas' Catering, and what is offering to the customers.
-  - I used an hero image as a background of the text.
+- The hero-image and text.
+  - The hero-text summarize what is the service provide and what information the users can find in the website.
+ 
 
 ![alt text](./assets/images/Hero-image.png)
 
 
--Our services section.
+-Service section.
   * This section explains to the users all the services provided by Nicolas's catering.
-
+  - I used also icons to make this section more colourfull and catchy.
+  - The users will find the contact us button, this will bring the users to the contact page.
 
 ![alt text](./assets/images/Our%20services.png)
 
@@ -71,22 +74,24 @@ This is the Nicolas' catering website. The website is designed to be responsive 
  ### Features Left to Implement
 - Improve the gallery.
 - Increase the services.
-- Add a recipe' s section.
-
 
 # Testing
 
 ###  Validator Testing
 - HTML
-    - W3C Validator
+    - No error were found when passing all the pages through the W3C Validator
 
 - CSS
-  - Jigsaw validator
+  - No error were found when passing all the pages through the Jigsaw validator
 
 - Accessibility
   - I confirmed that the colors and fonts chosen are easy to read and understand by running it through the lighthouse in devtools.
 
   ![alt text](./assets/images/accessibility.png)
+
+## Unfixed Bugs
+
+  No unfixed bugs.
 
 ## Deployment
 
