@@ -18,54 +18,46 @@ body {
 /* headings and logo */
 
 
-h1 {
-  font-family: Lato, sans-serif;
+h1, h2 {
+  font-family: Oswald, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
-  color: #fff;
-
+  color: #252525
 }
 
 #logo {
   float: left;
-  font-size: 2.25rem;
-  margin-left: 1.875em;
-  color: #000;
-  
+  font-size: 280%;
+  margin-left: 30px;
 }
 
-/* navbar */
+/* navigation links */
 
-.nav-menu, #logo {
+#menu {
+  font-size: 110%;
+  letter-spacing: 4px;
+}
+
+#menu, #logo {
   line-height: 75px;
 }
 
-.nav-menu {
-  font-family: Lato, sans-serif;
+#menu li {
   float: right;
-  list-style: none;
-  
+  list-style-type: none;
+  margin-right: 30px;
 }
 
-.nav-menu li {
-  display: inline-block;
-  letter-spacing: 4px;
-  margin-right: 1.875em;
-}
-
-.nav-menu li a {
-  color: #000;
+#menu a {
   text-decoration: none;
-  padding: 0.32rem;
-  font-size: 1.25rem;
+  color: inherit;
 }
 
-
-.nav-menu li a:hover {
+#menu a:hover {
   border-bottom: 1px solid #3a3a3a;
 }
 
-.nav-menu li a.active {
+.active {
   border-bottom: 1px solid #3a3a3a;
 }
 
@@ -74,7 +66,6 @@ h1 {
   height: 600px;
   width: 100%;
   overflow: hidden;
-
   position: relative;
 }
 
@@ -104,9 +95,6 @@ h1 {
   text-transform: uppercase;
   color: #fff;
 }
-
-
-
 
 button:hover {
   background-color: transparent;
@@ -373,18 +361,16 @@ border: solid 2px #fafafa;
 }
 
 
-/* For medium screen sizes from 950px wide and down */
+/* For medium screen sizes from 1200px wide and down */
   
-@media screen and (max-width: 950px) {
-  
-  .nav-menu {
-     clear: left;
-     float: left;
-     margin-left: 2rem;
-     margin-bottom: 1.25rem;
-  }
- 
-
+@media screen and (max-width: 1200px) {
+  .nav-menu  {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+ }
  .gallery {
      column-count: 3;
  }
@@ -394,7 +380,16 @@ border: solid 2px #fafafa;
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
+
+  #menu {
+     clear: left;
+     float: left;
+     margin-left: 30px;
+     margin-bottom: 20px;
+     line-height: 25px;
+  }
+
   .gallery {
       column-count: 2;
   }
@@ -403,3 +398,15 @@ border: solid 2px #fafafa;
   grid-template-columns: 1fr;
 }
 }
+
+@media screen and (max-width: 400px) {
+  .nav-menu{
+    font-size: 0.5rem;
+
+  }
+
+  #logo {
+    font-size: 1.5rem;
+  }
+}
+
