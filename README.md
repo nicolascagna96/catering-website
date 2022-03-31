@@ -1,8 +1,10 @@
 # Nicolas' Catering
 
+  [View the live project here]( https://nicolascagna96.github.io/catering-first-project/ "View the live project here")
+
 This is the Nicolas' Catering website. The website is designed to be responsive for a large range of devices. The website have the purpose to reach people who love the idea to have great food in their home.
 
-![alt text](./assets/images/Responsive.png)
+![alt text](./assets/images/responsive2022-03-31%20200203.png)
 
 
 # Features
@@ -16,14 +18,14 @@ This is the Nicolas' Catering website. The website is designed to be responsive 
    - The navigation bar is easy to read and accessible for all the users.
    
 
-  ![alt text](./assets/images/Navabar.png)
+  ![alt text](./assets/images/navbar.png)
 
 
 - The hero-image and text.
   - The hero-text summarize what is the service provide and what information the users can find in the website.
  
 
-![alt text](./assets/images/Hero-image.png)
+![alt text](./assets/images/hero.png)
 
 
 -Service section.
@@ -31,7 +33,7 @@ This is the Nicolas' Catering website. The website is designed to be responsive 
   - I used also icons to make this section more colourfull and catchy.
   - The users will find the contact us button, this will bring the users to the contact page.
 
-![alt text](./assets/images/Our%20services.png)
+![alt text](./assets/images/services.png)
 
 - The Footer.
   - The footer section includes the links for my social media profiles. The links will open in a new tab of the browser, this creates a better experience to the users.
@@ -72,22 +74,28 @@ This is the Nicolas' Catering website. The website is designed to be responsive 
   - I used Font Awsome to add the social media icons in the footer section and for the "Our Services" section.
 
  ### Features Left to Implement
-- Improve the gallery.
-- Increase the services.
+- Improve the gallery adding my own food's photos.
+- Add a new page with the prices and more information regarding the services.
 
 # Testing
 
 ###  Validator Testing
-- HTML
-    - No error were found when passing all the pages through the W3C Validator
+- [W3C Markup Validator]( https://validator.w3.org/nu/#textarea "W3C Markup Validator")
 
-- CSS
-  - No error were found when passing all the pages through the Jigsaw validator
+     -  No error were found when passing all the pages through the W3C validator in all the 3 pages.
+
+ ![alt text](./assets/images/validator.png)
+
+
+- [W3C CSS Validator]( https://validator.w3.org/nu/#textarea "W3C CSS Validator")
+  - No error were found when passing the CSS code through the validator
+
+  ![alt text](./assets/images/CSS%20validator.png)
 
 - Accessibility
   - I confirmed that the colors and fonts chosen are easy to read and understand by running it through the lighthouse in devtools.
 
-  ![alt text](./assets/images/accessibility.png)
+  ![alt text](./assets/images/accessibility2.png)
 
 ## Unfixed Bugs
 
@@ -100,13 +108,11 @@ This is the Nicolas' Catering website. The website is designed to be responsive 
     -   From the source section drop-down menu, select the Master Branch
     -   Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://nicolascagna96.github.io/catering-first-project/
-
 # Credits
 
 ### Contents
-- The code to make the navigation bar and the social media links was inspired by the CI Love Running Project.
-- The code to make the Conatct Form was taken by a youtube tutorial video: https://www.youtube.com/watch?v=8kTPtrz7PiU&t=799s
+- The code to make the navigation bar was taken by the CI Love Running Project.
+- The code to make the Contact Form was taken by a youtube tutorial video: https://www.youtube.com/watch?v=8kTPtrz7PiU&t=799s
 
 ### Media
-- The image were all taken from Pexels.com
+- The image were all taken from [Pexels.]( https://www.pexels.com/ "Pexels")
