@@ -45,7 +45,7 @@ This is the Nicolas' Catering website. The website is designed to be responsive 
   - The gallery page allows the users to see my plates. 
   - The images are very catchy, and they help to increase the bookings.
 
-  ![alt text](./assets/images/gallery-section.png)
+  ![alt text](./assets/images/Screenshot%202022-03-31%20213217.png)
 
 
 - Contact.
