@@ -398,15 +398,3 @@ border: solid 2px #fafafa;
   grid-template-columns: 1fr;
 }
 }
-
-@media screen and (max-width: 400px) {
-  .nav-menu{
-    font-size: 0.5rem;
-
-  }
-
-  #logo {
-    font-size: 1.5rem;
-  }
-}
-

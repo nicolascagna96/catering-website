@@ -4,7 +4,7 @@
 
 This is the Nicolas' Catering website. The website is designed to be responsive for a large range of devices. The website have the purpose to reach people who love the idea to have great food in their home.
 
-![alt text](./assets/images/responsive2022-03-31%20200203.png)
+![alt text](./assets/images/accessibility.png)
 
 
 # Features
@@ -97,9 +97,15 @@ This is the Nicolas' Catering website. The website is designed to be responsive 
 
   ![alt text](./assets/images/accessibility2.png)
 
+
 ## Unfixed Bugs
 
   No unfixed bugs.
+
+  # Further Testing
+   
+- I tested the all the pages works in different browsers: Chrome, Safari and Safari.
+- I confirmed that this project  is responsive, looks good and works on all standard screens using the devtools device toolbar.
 
 ## Deployment
 
